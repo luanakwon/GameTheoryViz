@@ -175,7 +175,7 @@ def render_table():
             data=[  
                 go.Table(
                     header=dict(
-                        values=["P1, P2"] + col_labels,
+                        values=[""] + col_labels,
                         fill_color="#f0f0f0",
                         align="center",
                         font=dict(size=15),

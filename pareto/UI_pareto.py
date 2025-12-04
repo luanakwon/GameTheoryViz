@@ -38,7 +38,11 @@ def main():
 def render_page_header():
     # render title description, savefileloader gametitle
     st.write("### Utility vs Strategy Profiles Chart")
-    st.write("short description of this page here")
+    st.write(
+        "This visualization plots every player's utility for each strategy profiles. "+
+        "The y-axis displays the utility, and each curve corresponds to a strategy profile. "+ 
+        "This helps reveal Pareto dominance between strategy profiles. "        
+    )
     render_file_uploaders()
 
 def render_game_header():
