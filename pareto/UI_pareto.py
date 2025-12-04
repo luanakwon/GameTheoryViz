@@ -75,7 +75,7 @@ def render_file_uploaders():
         st.session_state.pr['viz'] = ParetoViz.load_from_json(viz_file)
         st.session_state.pr['game'] = st.session_state.pr['viz'].game
     else:
-        with open("data/pr/viz2_prisoner's_dilemma.json") as f:
+        with open("data/pr/viz2_Prisoner's Dilemma.json") as f:
             st.session_state.pr['viz'] = ParetoViz.load_from_json(f)
         st.session_state.pr['game'] = st.session_state.pr['viz'].game
 
