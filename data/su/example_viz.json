@@ -1,0 +1,44 @@
+{
+    "game": {
+        "n_players": 2,
+        "n_strategies": [
+            2,
+            2
+        ],
+        "utility_mat": [
+            [
+                [
+                    2,
+                    0
+                ],
+                [
+                    3,
+                    1
+                ]
+            ],
+            [
+                [
+                    2,
+                    3
+                ],
+                [
+                    0,
+                    1
+                ]
+            ]
+        ],
+        "game_name": "Prisoner's Dilemma",
+        "strategy_labels": [
+            [
+                "silent",
+                "betray"
+            ],
+            [
+                "silent",
+                "betray"
+            ]
+        ]
+    },
+    "player": 0,
+    "all_player_data": {}
+}

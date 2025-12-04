@@ -1,0 +1,385 @@
+{
+    "game": {
+        "n_players": 2,
+        "n_strategies": [
+            2,
+            2
+        ],
+        "utility_mat": [
+            [
+                [
+                    2,
+                    0
+                ],
+                [
+                    3,
+                    1
+                ]
+            ],
+            [
+                [
+                    2,
+                    3
+                ],
+                [
+                    0,
+                    1
+                ]
+            ]
+        ],
+        "game_name": "Prisoner's Dilemma",
+        "strategy_labels": [
+            [
+                "silent",
+                "betray"
+            ],
+            [
+                "silent",
+                "betray"
+            ]
+        ]
+    },
+    "player": 1,
+    "all_player_data": {
+        "0": {
+            "player": 0,
+            "pi_s": [
+                {
+                    "pid": 0,
+                    "supports": [
+                        {
+                            "pid": 0,
+                            "sid": 0,
+                            "visible": true,
+                            "icon": "",
+                            "label": "silent"
+                        },
+                        {
+                            "pid": 0,
+                            "sid": 1,
+                            "visible": true,
+                            "icon": "",
+                            "label": "betray"
+                        }
+                    ],
+                    "ratios": [
+                        1.0,
+                        0.0
+                    ],
+                    "visible": true,
+                    "icon": "",
+                    "label": "silent"
+                },
+                {
+                    "pid": 0,
+                    "supports": [
+                        {
+                            "pid": 0,
+                            "sid": 0,
+                            "visible": true,
+                            "icon": "",
+                            "label": "silent"
+                        },
+                        {
+                            "pid": 0,
+                            "sid": 1,
+                            "visible": true,
+                            "icon": "",
+                            "label": "betray"
+                        }
+                    ],
+                    "ratios": [
+                        0.0,
+                        1.0
+                    ],
+                    "visible": true,
+                    "icon": "",
+                    "label": "betray"
+                }
+            ],
+            "oppo_sps": [
+                {
+                    "mixed_strats": [
+                        {
+                            "pid": 1,
+                            "supports": [
+                                {
+                                    "pid": 1,
+                                    "sid": 0,
+                                    "visible": true,
+                                    "icon": "",
+                                    "label": "silent"
+                                },
+                                {
+                                    "pid": 1,
+                                    "sid": 1,
+                                    "visible": true,
+                                    "icon": "",
+                                    "label": "betray"
+                                }
+                            ],
+                            "ratios": [
+                                1.0,
+                                0.0
+                            ],
+                            "visible": true,
+                            "icon": "",
+                            "label": "New Strategy"
+                        }
+                    ],
+                    "visible": true,
+                    "icon": "",
+                    "label": "silent"
+                },
+                {
+                    "mixed_strats": [
+                        {
+                            "pid": 1,
+                            "supports": [
+                                {
+                                    "pid": 1,
+                                    "sid": 0,
+                                    "visible": true,
+                                    "icon": "",
+                                    "label": "silent"
+                                },
+                                {
+                                    "pid": 1,
+                                    "sid": 1,
+                                    "visible": true,
+                                    "icon": "",
+                                    "label": "betray"
+                                }
+                            ],
+                            "ratios": [
+                                0.5,
+                                0.5
+                            ],
+                            "visible": true,
+                            "icon": "",
+                            "label": "New Strategy"
+                        }
+                    ],
+                    "visible": true,
+                    "icon": "",
+                    "label": "half"
+                },
+                {
+                    "mixed_strats": [
+                        {
+                            "pid": 1,
+                            "supports": [
+                                {
+                                    "pid": 1,
+                                    "sid": 0,
+                                    "visible": true,
+                                    "icon": "",
+                                    "label": "silent"
+                                },
+                                {
+                                    "pid": 1,
+                                    "sid": 1,
+                                    "visible": true,
+                                    "icon": "",
+                                    "label": "betray"
+                                }
+                            ],
+                            "ratios": [
+                                0.0,
+                                1.0
+                            ],
+                            "visible": true,
+                            "icon": "",
+                            "label": "New Strategy"
+                        }
+                    ],
+                    "visible": true,
+                    "icon": "",
+                    "label": "betray"
+                }
+            ],
+            "u_mat": [
+                [
+                    2.0,
+                    1.0,
+                    0.0
+                ],
+                [
+                    3.0,
+                    2.0,
+                    1.0
+                ]
+            ]
+        },
+        "1": {
+            "player": 1,
+            "pi_s": [
+                {
+                    "pid": 1,
+                    "supports": [
+                        {
+                            "pid": 1,
+                            "sid": 0,
+                            "visible": true,
+                            "icon": "",
+                            "label": "silent"
+                        },
+                        {
+                            "pid": 1,
+                            "sid": 1,
+                            "visible": true,
+                            "icon": "",
+                            "label": "betray"
+                        }
+                    ],
+                    "ratios": [
+                        1.0,
+                        0.0
+                    ],
+                    "visible": true,
+                    "icon": "",
+                    "label": "silent"
+                },
+                {
+                    "pid": 1,
+                    "supports": [
+                        {
+                            "pid": 1,
+                            "sid": 0,
+                            "visible": true,
+                            "icon": "",
+                            "label": "silent"
+                        },
+                        {
+                            "pid": 1,
+                            "sid": 1,
+                            "visible": true,
+                            "icon": "",
+                            "label": "betray"
+                        }
+                    ],
+                    "ratios": [
+                        0.0,
+                        1.0
+                    ],
+                    "visible": true,
+                    "icon": "",
+                    "label": "betray"
+                }
+            ],
+            "oppo_sps": [
+                {
+                    "mixed_strats": [
+                        {
+                            "pid": 0,
+                            "supports": [
+                                {
+                                    "pid": 0,
+                                    "sid": 0,
+                                    "visible": true,
+                                    "icon": "",
+                                    "label": "silent"
+                                },
+                                {
+                                    "pid": 0,
+                                    "sid": 1,
+                                    "visible": true,
+                                    "icon": "",
+                                    "label": "betray"
+                                }
+                            ],
+                            "ratios": [
+                                1.0,
+                                0.0
+                            ],
+                            "visible": true,
+                            "icon": "",
+                            "label": "New Strategy"
+                        }
+                    ],
+                    "visible": true,
+                    "icon": "",
+                    "label": "silent"
+                },
+                {
+                    "mixed_strats": [
+                        {
+                            "pid": 0,
+                            "supports": [
+                                {
+                                    "pid": 0,
+                                    "sid": 0,
+                                    "visible": true,
+                                    "icon": "",
+                                    "label": "silent"
+                                },
+                                {
+                                    "pid": 0,
+                                    "sid": 1,
+                                    "visible": true,
+                                    "icon": "",
+                                    "label": "betray"
+                                }
+                            ],
+                            "ratios": [
+                                0.5,
+                                1.0
+                            ],
+                            "visible": true,
+                            "icon": "",
+                            "label": "New Strategy"
+                        }
+                    ],
+                    "visible": true,
+                    "icon": "",
+                    "label": "third"
+                },
+                {
+                    "mixed_strats": [
+                        {
+                            "pid": 0,
+                            "supports": [
+                                {
+                                    "pid": 0,
+                                    "sid": 0,
+                                    "visible": true,
+                                    "icon": "",
+                                    "label": "silent"
+                                },
+                                {
+                                    "pid": 0,
+                                    "sid": 1,
+                                    "visible": true,
+                                    "icon": "",
+                                    "label": "betray"
+                                }
+                            ],
+                            "ratios": [
+                                0.0,
+                                1.0
+                            ],
+                            "visible": true,
+                            "icon": "",
+                            "label": "New Strategy"
+                        }
+                    ],
+                    "visible": true,
+                    "icon": "",
+                    "label": "betray"
+                }
+            ],
+            "u_mat": [
+                [
+                    2.0,
+                    0.6666666666666666,
+                    0.0
+                ],
+                [
+                    3.0,
+                    1.6666666666666665,
+                    1.0
+                ]
+            ]
+        }
+    }
+}
